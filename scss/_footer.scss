@@ -1,0 +1,20 @@
+@use 'variables' as *;
+
+footer {
+  background-color: $color-oscuridad;
+  color: #aaaaaa;
+  padding: 25px 40px;
+  text-align: center;
+  margin-top: auto;
+
+  p {
+    margin: 0;
+    font-size: 0.95em;
+
+    &.copy-peq {
+      margin-top: 5px;
+      font-size: 0.85em;
+      color: #888888;
+    }
+  }
+}

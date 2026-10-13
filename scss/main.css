@@ -1,1 +1,201 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500;700&display=swap");
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333333;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  padding: 30px 40px;
+  flex: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header {
+  background-color: #004a99;
+  color: white;
+  padding: 25px 40px;
+  text-align: center;
+}
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  font-size: 2.2em;
+  letter-spacing: 0.5px;
+}
+header p {
+  margin-top: 5px;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+nav {
+  background-color: #222222;
+  padding: 12px 40px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover {
+  color: #00aaff;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+nav ul li a.activo {
+  color: #00aaff;
+  border-bottom: 2px solid #00aaff;
+}
+
+.caja-contenido {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+.caja-contenido h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #004a99;
+  border-bottom: 2px solid #004a99;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+.caja-contenido h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.caja-contenido p {
+  margin-bottom: 15px;
+}
+.caja-contenido p:last-child {
+  margin-bottom: 0;
+}
+
+.lista-habilidades {
+  list-style-type: square;
+  padding-left: 20px;
+}
+.lista-habilidades li {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+#proyectos-destacados {
+  margin-top: 30px;
+}
+#proyectos-destacados h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  margin-bottom: 15px;
+}
+#proyectos-destacados .caja-placeholder {
+  background-color: #eef2f7;
+  border: 2px dashed #dddddd;
+  padding: 40px;
+  text-align: center;
+  color: #666666;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+.formulario-contacto {
+  margin-top: 20px;
+}
+.formulario-contacto .grupo-campo {
+  margin-bottom: 20px;
+}
+.formulario-contacto .grupo-campo label {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333333;
+}
+.formulario-contacto .grupo-campo input,
+.formulario-contacto .grupo-campo textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  transition: all 0.3s ease;
+}
+.formulario-contacto .grupo-campo input:focus,
+.formulario-contacto .grupo-campo textarea:focus {
+  outline: none;
+  border-color: #00aaff;
+  box-shadow: 0 0 0 3px rgba(0, 170, 255, 0.2);
+}
+.formulario-contacto .grupo-campo textarea {
+  resize: vertical;
+}
+
+.btn-primario {
+  background-color: #004a99;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+.btn-primario:hover {
+  background-color: rgb(0, 49.3333333333, 102);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.btn-primario:focus {
+  outline: 3px solid #00aaff;
+}
+
+footer {
+  background-color: #222222;
+  color: #aaaaaa;
+  padding: 25px 40px;
+  text-align: center;
+  margin-top: auto;
+}
+footer p {
+  margin: 0;
+  font-size: 0.95em;
+}
+footer p.copy-peq {
+  margin-top: 5px;
+  font-size: 0.85em;
+  color: #888888;
+}/*# sourceMappingURL=main.css.map */

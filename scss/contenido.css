@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500;700&display=swap");
+.caja-contenido {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin-bottom: 30px;
+}
+.caja-contenido h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #004a99;
+  border-bottom: 2px solid #004a99;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+.caja-contenido h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.caja-contenido p {
+  margin-bottom: 15px;
+}
+.caja-contenido p:last-child {
+  margin-bottom: 0;
+}
+
+.lista-habilidades {
+  list-style-type: square;
+  padding-left: 20px;
+}
+.lista-habilidades li {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+#proyectos-destacados {
+  margin-top: 30px;
+}
+#proyectos-destacados h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  margin-bottom: 15px;
+}
+#proyectos-destacados .caja-placeholder {
+  background-color: #eef2f7;
+  border: 2px dashed #dddddd;
+  padding: 40px;
+  text-align: center;
+  color: #666666;
+  border-radius: 8px;
+  font-style: italic;
+}/*# sourceMappingURL=contenido.css.map */

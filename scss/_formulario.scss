@@ -1,0 +1,38 @@
+@use 'variables' as *;
+
+.formulario-contacto {
+  margin-top: 20px;
+
+  .grupo-campo {
+    margin-bottom: 20px;
+
+    label {
+      display: block;
+      font-family: $fuente-titulos;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: $color-texto;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      padding: 12px 15px;
+      border: 1px solid $color-borde;
+      border-radius: $radio-borde;
+      font-family: $fuente-cuerpo;
+      font-size: 1em;
+      transition: $transicion-suave;
+
+      &:focus {
+        outline: none;
+        border-color: $color-secundario;
+        box-shadow: 0 0 0 3px rgba(0, 170, 255, 0.2);
+      }
+    }
+
+    textarea {
+      resize: vertical;
+    }
+  }
+}

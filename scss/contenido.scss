@@ -1,0 +1,62 @@
+@use 'variables' as *;
+
+.caja-contenido {
+  background-color: $color-tarjeta;
+  padding: 30px;
+  border-radius: $radio-borde;
+  box-shadow: $sombra-tarjeta;
+  margin-bottom: 30px;
+
+  h2 {
+    font-family: $fuente-titulos;
+    color: $color-primario;
+    border-bottom: 2px solid $color-primario;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-family: $fuente-titulos;
+    color: $color-texto;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  p {
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.lista-habilidades {
+  list-style-type: square;
+  padding-left: 20px;
+
+  li {
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+}
+
+#proyectos-destacados {
+  margin-top: 30px;
+
+  h3 {
+    font-family: $fuente-titulos;
+    color: $color-texto;
+    margin-bottom: 15px;
+  }
+
+  .caja-placeholder {
+    background-color: #eef2f7;
+    border: 2px dashed $color-borde;
+    padding: 40px;
+    text-align: center;
+    color: $color-texto-suave;
+    border-radius: $radio-borde;
+    font-style: italic;
+  }
+}

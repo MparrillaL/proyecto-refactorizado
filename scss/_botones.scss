@@ -1,0 +1,31 @@
+@use 'variables' as *;
+
+// Mixin para centrado Flexbox opcional
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primario {
+  background-color: $color-primario;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-family: $fuente-titulos;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: $radio-borde;
+  cursor: pointer;
+  transition: $transicion-suave;
+  display: inline-block;
+
+  &:hover {
+    background-color: darken($color-primario, 10%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  &:focus {
+    outline: 3px solid $color-secundario;
+  }
+}

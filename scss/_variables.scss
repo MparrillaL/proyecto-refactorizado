@@ -1,0 +1,21 @@
+// Importación de fuentes desde Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@400;500;700&display=swap');
+
+// Paleta de Colores
+$color-primario: #004a99;      // Azul corporativo principal
+$color-secundario: #00aaff;    // Azul claro (efectos/foco)
+$color-fondo: #f4f4f4;         // Fondo general claro
+$color-tarjeta: #ffffff;       // Blanco para tarjetas
+$color-texto: #333333;         // Gris oscuro para texto principal
+$color-texto-suave: #666666;   // Gris medio
+$color-oscuridad: #222222;     // Fondo de navegación y footer
+$color-borde: #dddddd;         // Borde suave
+
+// Tipografías
+$fuente-titulos: 'Montserrat', sans-serif;
+$fuente-cuerpo: 'Roboto', sans-serif;
+
+// Propiedades de Estilo
+$radio-borde: 8px;
+$sombra-tarjeta: 0 4px 10px rgba(0, 0, 0, 0.08);
+$transicion-suave: all 0.3s ease;
