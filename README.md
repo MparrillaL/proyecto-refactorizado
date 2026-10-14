@@ -80,5 +80,5 @@ El proyecto aprovecha las capacidades avanzadas del preprocesador SASS:
 ---
 
 ## Autor
-* **Estudiante:** [Manuel Parrilla Lahoz]
+* **Estudiante:** Manuel Parrilla Lahoz
 * **Curso:** 2º DAW — Diseño de Interfaces Web
