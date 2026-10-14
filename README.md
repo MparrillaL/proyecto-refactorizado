@@ -40,6 +40,7 @@ proyecto-refactorizado/
     ├── _botones.scss       # Mixins y clases de botones reutilizables
     ├── _footer.scss        # Pie de página unificado
     └── main.scss           # Archivo principal de ensamblaje SASS
+```
 ## 3. Arquitectura SASS y Diseño
 
 El proyecto aprovecha las capacidades avanzadas del preprocesador SASS:
